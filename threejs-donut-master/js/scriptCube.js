@@ -12,6 +12,7 @@ const cubeMaterial = new THREE.MeshStandardMaterial({color: 0x808080})
 const cube = new THREE.Mesh(cubeGeometry, cubeMaterial)
 // posicion en pantalla
 cube.position.x = 0;
+cube.position.y = 0;
 // rotacion objeto
 cube.rotation.x = Math.PI * 0.2
 cube.rotation.z = Math.PI * 0.15
